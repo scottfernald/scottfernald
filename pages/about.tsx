@@ -61,14 +61,12 @@ const AboutPage = () => {
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
             <p className="mb-1 text-xl">
-              Senior full stack developer with 9 years of experience specializing in JavaScript, TypeScript, React, Angular, Vue, Node,
-              MERNstack, GraphQL development, and shipping features and writing quality code.
-              <br /> I have a keen eye for UX/UI as well as a strong math and computer science background.
+              Experienced senior full stack developer with 10 years of experience, adept with various technologies and programming languages
+              including JavaScript, TypeScript, React, Vue, Next, Node, Ruby and Python.
               <br />
-              An avid learner, a great communicator, and an excellent addition to teams of all sizes.
+              Prioritizes customer satisfaction, excels in agile environments, and seamlessly integrates into teams of all sizes.
               <br />
-              Honest and reliable with a positive attitude with my skills and experience help me to be a reliable developer and keep
-              long-term relationship with clients.
+              Impressive skill set and a valuable addition.
             </p>
           </div>
           <h2 className="mb-2 text-2xl font-bold">What can I do</h2>
@@ -180,13 +178,7 @@ const AboutPage = () => {
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
-                    Apollo/GraphQL
-                  </li>
-                  <li
-                    key="react"
-                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
-                  >
-                    Restful API
+                    Python
                   </li>
                 </ul>
               </AccordionBody>
