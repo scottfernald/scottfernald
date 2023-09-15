@@ -5,7 +5,7 @@ export const PROJECTS: IRepository[] = [
     id: 1,
     preview_img: '/media/projects/preview/lunar.png',
     img: '/media/projects/lunar.png',
-    name: 'Jobscan',
+    name: 'LunarCrush',
     description:
       'LunarCrush focuses on trading and provides information and insights about cryptocurrencies, stocks, and NFTs (Non-Fungible Tokens).',
     html_url: 'https://lunarcrush.com/',
