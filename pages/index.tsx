@@ -27,7 +27,7 @@ const HomePage = () => {
               <span className="block"></span>
               <span className="block text-sm opacity-90">
                 A SENIOR
-                <br /> FULL STACK DEVELOPER
+                <br /> SOFTWARE ENGINEER
               </span>
             </span>
           </h1>

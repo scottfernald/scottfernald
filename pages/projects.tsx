@@ -20,9 +20,9 @@ const RepositoryCard = ({ repo }: { repo: IRepository }) => {
         <a href={repo.html_url} target="_blank">
           <h2 className="mb-1 items-center text-2xl font-bold capitalize">{repo.name.replaceAll('-', ' ')}</h2>
         </a>
-        <div className="block h-10 text-xs font-bold">
-          <span className="opacity-80">Completed &nbsp;&nbsp;&nbsp;{repo.last_commit_at}.</span>
-          <br />
+        <div className="block text-xs font-bold">
+          {/* <span className="opacity-80">Completed &nbsp;&nbsp;&nbsp;{repo.last_commit_at}.</span> */}
+          {/* <br /> */}
           {repo.homepage && (
             <a href={repo.homepage} rel="noopener" target="_blank" className="hover:text-yellow-600">
               {new URL(repo.homepage).host}

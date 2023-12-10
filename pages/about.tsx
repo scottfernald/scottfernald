@@ -61,8 +61,8 @@ const AboutPage = () => {
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
             <p className="mb-1 text-xl">
-              Experienced senior full stack developer with 10 years of experience, adept with various technologies and programming languages
-              including JavaScript, TypeScript, React, Vue, Next, Node, Ruby and Python.
+              Experienced Web Developer with 9+ years of experience, adept with various technologies and programming languages including
+              React, React Native, Next.js, Node.js and Ruby.
               <br />
               Prioritizes customer satisfaction, excels in agile environments, and seamlessly integrates into teams of all sizes.
               <br />
@@ -121,7 +121,7 @@ const AboutPage = () => {
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
-                    Vue.js
+                    React Native
                   </li>
                   <li
                     key="react"
@@ -133,13 +133,31 @@ const AboutPage = () => {
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
+                    SCSS
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    LESS
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
                     Material UI
                   </li>
                   <li
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
-                    Tailwind
+                    Tailwind CSS
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    Chakra UI
                   </li>
                   <li
                     key="react"
@@ -174,12 +192,6 @@ const AboutPage = () => {
                   >
                     Ruby
                   </li>
-                  <li
-                    key="react"
-                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
-                  >
-                    Python
-                  </li>
                 </ul>
               </AccordionBody>
             </Accordion>
@@ -213,18 +225,6 @@ const AboutPage = () => {
                   >
                     MongoDB
                   </li>
-                  <li
-                    key="react"
-                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
-                  >
-                    Redis
-                  </li>
-                  <li
-                    key="react"
-                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
-                  >
-                    DynamoDB
-                  </li>
                 </ul>
               </AccordionBody>
             </Accordion>
@@ -238,12 +238,6 @@ const AboutPage = () => {
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
-                    CI/CD
-                  </li>
-                  <li
-                    key="react"
-                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
-                  >
                     Docker
                   </li>
                   <li
@@ -251,12 +245,6 @@ const AboutPage = () => {
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
                     Kubernetes
-                  </li>
-                  <li
-                    key="react"
-                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
-                  >
-                    Jenkins
                   </li>
                   <li
                     key="react"
