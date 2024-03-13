@@ -27,16 +27,16 @@ const ContactPage = () => {
           <div className="mb-8">
             <h2 className="mb-3 text-lg font-bold">STREET ADDRESS</h2>
             <p className="text-sm leading-5">
-              5490 Mackie St, Vancouver
+              1838 Bough Ave, Clearwater, FL
               <br />
-              BC V5Y 3H2, Canada
+              FL 33760
             </p>
           </div>
           <div className="mb-8">
             <h2 className="mb-3 text-lg font-bold">EMAIL ADDRESS</h2>
             <p className="text-sm leading-5">
-              <a href="mailto:arnold.choy93@outlook.com" rel="noopener" className="hover:text-yellow-600">
-                arnold.choy93@outlook.com
+              <a href="mailto:scott.fernald1110@gmail.com" rel="noopener" className="hover:text-yellow-600">
+                scott.fernald1110@gmail.com
               </a>
             </p>
           </div>
@@ -60,6 +60,15 @@ const ContactPage = () => {
                 className="mx-2 inline-block p-2 opacity-80 hover:opacity-95"
               >
                 <GitHubIcon />
+              </a>
+              <a
+                href={SOCIALS.WA}
+                aria-label="WhatsApp"
+                target="_blank"
+                rel="noopener"
+                className="mx-2 inline-block p-2 opacity-80 hover:opacity-95"
+              >
+                <WhatsAppIcon />
               </a>
             </div>
           </div>

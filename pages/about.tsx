@@ -5,7 +5,7 @@ import { Accordion, AccordionHeader, AccordionBody } from '@material-tailwind/re
 
 import { ABOUT_PAGE } from '@/constans/pages'
 import Image from 'next/legacy/image'
-import IMG_ME from '@/public/media/me.jpg'
+import IMG_ME from '@/public/media/me.png'
 
 const Icon = ({ id, open }: any) => {
   return (
@@ -52,17 +52,19 @@ const AboutPage = () => {
           <Image src={IMG_ME} alt={ABOUT_PAGE.body.image.alt} className="block w-full" placeholder="blur" />
         </div>
         <div className="md:flex-1 md:pl-6">
-          <h2 className="mb-2 text-2xl font-bold">I’m Arnold Choy</h2>
+          <h2 className="mb-2 text-2xl font-bold">I’m Scott Fernald</h2>
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
-            <p className="mb-1 text-xl">I'm a Senior Full Stack Developer & Software Engineer.</p>
+            <p className="mb-1 text-xl">I'm a senior software enginer with 13+ years of professional experience.</p>
           </div>
           <h2 className="mb-2 text-2xl font-bold">My approach to building a beautiful & scalable project on a success story</h2>
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
             <p className="mb-1 text-xl">
-              Experienced Web Developer with 9+ years of experience, adept with various technologies and programming languages including
-              React, React Native, Next.js, Node.js and Ruby.
+              Persistent professional equipped with 13+ years of comprehensive experience in the Software Development industry. Provides
+              strong technical direction across multiple projects. Experienced with the full software development lifecycle from planning to
+              launch. Responsible and articulate individual with strengths in solutions optimization, mobile and cloud solutions, and global
+              project management. A big fan of basketball and soccer. A self-motivated, avid learner.
               <br />
               Prioritizes customer satisfaction, excels in agile environments, and seamlessly integrates into teams of all sizes.
               <br />
@@ -84,14 +86,16 @@ const AboutPage = () => {
                 Headless & eCommerce
               </AccordionHeader>
               <AccordionBody className="p-2 text-xl text-gray-500">
-                Headless & JAMstack projects using Next.js, Gatsby.js, and Nuxt.js, Shopify to Headless migration
+                Headless & JAMstack projects using React.js, Next.js, and Vue.js, Shopify to Headless migration
               </AccordionBody>
             </Accordion>
             <Accordion open={open === 3} icon={<Icon id={3} open={open} />} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(3)} className="pb-3 pt-3 text-xl">
                 Back end Development
               </AccordionHeader>
-              <AccordionBody className="p-2 text-xl text-gray-500">Database design, REST/GraphQL APIs, Payment integration</AccordionBody>
+              <AccordionBody className="p-2 text-xl text-gray-500">
+                Database design, REST/GraphQL APIs, payment integration, abd performance analytics
+              </AccordionBody>
             </Accordion>
             <Accordion open={open === 4} icon={<Icon id={4} open={open} />} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(4)} className="pb-3 pt-3 text-xl">
@@ -133,6 +137,12 @@ const AboutPage = () => {
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
+                    Vue.js
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
                     SCSS
                   </li>
                   <li
@@ -157,7 +167,7 @@ const AboutPage = () => {
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
-                    Chakra UI
+                    ShadCN
                   </li>
                   <li
                     key="react"
@@ -190,7 +200,31 @@ const AboutPage = () => {
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
-                    Ruby
+                    NestJS
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    Laravel
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    Django
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    Flask
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    Go
                   </li>
                 </ul>
               </AccordionBody>
@@ -224,6 +258,12 @@ const AboutPage = () => {
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
                     MongoDB
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    DynamoDB
                   </li>
                 </ul>
               </AccordionBody>

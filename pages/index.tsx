@@ -22,7 +22,7 @@ const HomePage = () => {
             <span className="grid grid-cols-2">
               <span className="block text-center text-sm opacity-90">I AM</span>
             </span>{' '}
-            <span className=" z-10 block text-[calc(1.825rem+6.9vw)] font-bold leading-none">Arnold Choy</span>{' '}
+            <span className=" z-10 block text-[calc(1.825rem+6.9vw)] font-bold leading-none">Scott Fernald</span>{' '}
             <span className="grid grid-cols-2 justify-items-end">
               <span className="block"></span>
               <span className="block text-sm opacity-90">
@@ -43,6 +43,9 @@ const HomePage = () => {
             </a>
             <a href={SOCIALS.GH} aria-label="GitHub" target="_blank" rel="noopener" className="mx-2 block p-2 opacity-80 hover:opacity-95">
               <GitHubIcon />
+            </a>
+            <a href={SOCIALS.WA} aria-label="GitHub" target="_blank" rel="noopener" className="mx-2 block p-2 opacity-80 hover:opacity-95">
+              <WhatsAppIcon />
             </a>
           </div>
         </div>

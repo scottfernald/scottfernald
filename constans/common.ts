@@ -1,6 +1,6 @@
 export const SOCIALS = {
-  GH: 'https://github.com/potentialdev-web',
+  GH: 'https://github.com/techexpert0119',
   IG: 'https://www.instagram.com/dedeard.js',
-  LI: 'https://www.linkedin.com/in/arnold-choy/',
-  WA: 'https://api.whatsapp.com/send?phone=6281343912883&text=%3CChatMe%20%2F%3E',
+  LI: 'https://www.linkedin.com/in/scottfernald1110/',
+  WA: 'https://api.whatsapp.com/send/?phone=%2B17708727817&text&type=phone_number&app_absent=0',
 }
