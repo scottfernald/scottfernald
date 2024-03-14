@@ -52,7 +52,7 @@ const AboutPage = () => {
           <Image src={IMG_ME} alt={ABOUT_PAGE.body.image.alt} className="block w-full" placeholder="blur" />
         </div>
         <div className="md:flex-1 md:pl-6">
-          <h2 className="mb-2 text-2xl font-bold">I’m Scott Fernald</h2>
+          <h2 className="mb-2 text-2xl font-bold">I’m Keith Corrigan</h2>
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
             <p className="mb-1 text-xl">I'm a senior software enginer with 13+ years of professional experience.</p>
@@ -61,10 +61,11 @@ const AboutPage = () => {
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
             <p className="mb-1 text-xl">
-              Persistent professional equipped with 13+ years of comprehensive experience in the Software Development industry. Provides
-              strong technical direction across multiple projects. Experienced with the full software development lifecycle from planning to
-              launch. Responsible and articulate individual with strengths in solutions optimization, mobile and cloud solutions, and global
-              project management. A big fan of basketball and soccer. A self-motivated, avid learner.
+              A results-oriented Senior Software Engineer with over 13 years of experience in design, development, and test experience on
+              everything from mobile software and web applications to protocols and APIs. Strong emphasis on advanced JavaScript frameworks
+              and best practices which reduce the development cost of software while improving quality. Proven track record of leading
+              projects from planning to completion, on time and within budget. Enjoy working with a team of talented members collaboratively
+              solving problems and building inspiring products.
               <br />
               Prioritizes customer satisfaction, excels in agile environments, and seamlessly integrates into teams of all sizes.
               <br />

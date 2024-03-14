@@ -1,19 +1,19 @@
 export const HOME_PAGE = {
   path: '/',
-  title: 'Scott Fernald',
-  description: 'I’m Scott Fernald, senior software engineer with 13+ years of experience.',
+  title: 'Keith Corrigan',
+  description: 'I’m Keith Corrigan, senior software engineer with 13+ years of experience.',
   h1: '._',
 }
 
 export const ABOUT_PAGE = {
   path: '/about',
-  title: 'About - Scott Fernald',
-  description: 'I’m Scott Fernald, senior software engineer with 13+ years of experience.',
+  title: 'About - Keith Corrigan',
+  description: 'I’m Keith Corrigan, senior software engineer with 13+ years of experience.',
   h1: 'About',
   body: {
     resume_url: '/resume.pdf',
     image: {
-      alt: 'Scott Fernald',
+      alt: 'Keith Corrigan',
       url: '',
     },
   },
@@ -21,15 +21,15 @@ export const ABOUT_PAGE = {
 
 export const PROJECTS_PAGE = {
   path: '/projects',
-  title: 'Projects - Scott Fernald',
-  description: 'I’m Scott Fernald, senior software engineer with 13+ years of experience.',
+  title: 'Projects - Keith Corrigan',
+  description: 'I’m Keith Corrigan, senior software engineer with 13+ years of experience.',
   h1: 'Projects',
 }
 
 export const CONTACT_PAGE = {
   path: '/contact',
-  title: 'Contact - Scott Fernald',
-  description: 'I’m Scott Fernald, senior software engineer with 13+ years of experience.',
+  title: 'Contact - Keith Corrigan',
+  description: 'I’m Keith Corrigan, senior software engineer with 13+ years of experience.',
   h1: 'Contact',
   body: {
     formspree_key: 'xoqyaqqe',
