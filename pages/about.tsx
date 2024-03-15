@@ -52,16 +52,16 @@ const AboutPage = () => {
           <Image src={IMG_ME} alt={ABOUT_PAGE.body.image.alt} className="block w-full" placeholder="blur" />
         </div>
         <div className="md:flex-1 md:pl-6">
-          <h2 className="mb-2 text-2xl font-bold">I’m Scott Fernald</h2>
+          <h2 className="mb-2 text-2xl font-bold">I’m Roberto Flores</h2>
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
-            <p className="mb-1 text-xl">I'm a senior software enginer with 13+ years of professional experience.</p>
+            <p className="mb-1 text-xl">I'm a senior software enginer with 10+ years of professional experience.</p>
           </div>
           <h2 className="mb-2 text-2xl font-bold">My approach to building a beautiful & scalable project on a success story</h2>
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
             <p className="mb-1 text-xl">
-              Persistent professional equipped with 13+ years of comprehensive experience in the Software Development industry. Provides
+              Persistent professional equipped with 10+ years of comprehensive experience in the Software Development industry. Provides
               strong technical direction across multiple projects. Experienced with the full software development lifecycle from planning to
               launch. Responsible and articulate individual with strengths in solutions optimization, mobile and cloud solutions, and global
               project management. A big fan of basketball and soccer. A self-motivated, avid learner.
