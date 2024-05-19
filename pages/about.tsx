@@ -5,7 +5,7 @@ import { Accordion, AccordionHeader, AccordionBody } from '@material-tailwind/re
 
 import { ABOUT_PAGE } from '@/constans/pages'
 import Image from 'next/legacy/image'
-import IMG_ME from '@/public/media/me.png'
+import IMG_ME from '@/public/media/me.jpg'
 
 const Icon = ({ id, open }: any) => {
   return (
