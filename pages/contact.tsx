@@ -61,7 +61,7 @@ const ContactPage = () => {
               >
                 <GitHubIcon />
               </a>
-              {/* <a
+              <a
                 href={SOCIALS.WA}
                 aria-label="WhatsApp"
                 target="_blank"
@@ -69,7 +69,7 @@ const ContactPage = () => {
                 className="mx-2 inline-block p-2 opacity-80 hover:opacity-95"
               >
                 <WhatsAppIcon />
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
