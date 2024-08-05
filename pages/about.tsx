@@ -52,7 +52,7 @@ const AboutPage = () => {
           <Image src={IMG_ME} alt={ABOUT_PAGE.body.image.alt} className="block w-full" placeholder="blur" />
         </div>
         <div className="md:flex-1 md:pl-6">
-          <h2 className="mb-2 text-2xl font-bold">I’m Adrian Chu</h2>
+          <h2 className="mb-2 text-2xl font-bold">I’m Ian Harding</h2>
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
             <p className="mb-1 text-xl">I'm a senior software enginer with 10+ years of professional experience.</p>
@@ -61,11 +61,14 @@ const AboutPage = () => {
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
             <p className="mb-1 text-xl">
-              Seasoned software engineering professional with over 10 years of diverse experience in the industry. Provides technical leadership and strategic direction across a wide range of projects. Skilled in all phases of the software development lifecycle, from initial planning to successful product launch. Adept at optimizing solutions, developing web and cloud-based applications, and managing global initiatives. Articulate communicator and self-motivated lifelong learner with a passion for basketball and soccer.
+              Creating code marvels with expertise. A results-oriented software engineer with 10+ years of expertise in web and mobile
+              development. Specializes in building and optimizing user-focused websites and applications. Professional engineering
+              background with a Bachelor of Science (B.Sc.) in Computer Science. Enthusiastic about using technology for innovation, bring a
+              'get-it-done' spirit to every project.
               <br />
               Prioritizes customer satisfaction, excels in agile environments, and seamlessly integrates into teams of all sizes.
               <br />
-              Impressive skill set and a valuable addition.
+              Love family, friends and sports.
             </p>
           </div>
           <h2 className="mb-2 text-2xl font-bold">What can I do</h2>
@@ -135,6 +138,12 @@ const AboutPage = () => {
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
                     Vue.js
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    AngularJS
                   </li>
                   <li
                     key="react"
@@ -221,7 +230,31 @@ const AboutPage = () => {
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
+                    FastAPI
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
                     Go
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    GraphQL
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    Redis
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    Rabbitmq
                   </li>
                 </ul>
               </AccordionBody>
