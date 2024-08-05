@@ -40,7 +40,7 @@ export const PROJECTS: IRepository[] = [
       'AWS Lambda',
       'AWS S3',
     ],
-    role: 'Senior Software Engineer',
+    role: 'Senior Full Stack Developer',
   },
   {
     id: 2,
@@ -127,7 +127,7 @@ export const PROJECTS: IRepository[] = [
       { name: 'CSS', size: 5 },
     ],
     topics: ['TypeScript', 'React', 'NextJS', 'Tailwind', 'Python', 'Django', 'ML Principles', 'Stripe', 'Docker', 'AWS'],
-    role: 'Senior Software Engineer',
+    role: 'Senior Full Stack Developer',
   },
   {
     id: 5,
@@ -160,7 +160,7 @@ export const PROJECTS: IRepository[] = [
       'Mailtrap',
       'AWS',
     ],
-    role: 'Senior Software Engineer',
+    role: 'Senior Full Stack Developer',
   },
   {
     id: 6,
