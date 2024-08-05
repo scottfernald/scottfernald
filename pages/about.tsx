@@ -55,13 +55,16 @@ const AboutPage = () => {
           <h2 className="mb-2 text-2xl font-bold">I’m Adrian Chu</h2>
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
-            <p className="mb-1 text-xl">I'm a senior software enginer with 10+ years of professional experience.</p>
+            <p className="mb-1 text-xl">I'm a senior full stacfk developer with 12+ years of professional experience.</p>
           </div>
           <h2 className="mb-2 text-2xl font-bold">My approach to building a beautiful & scalable project on a success story</h2>
           <hr className="mb-4 w-20 border-t-[4px]" />
           <div className="mb-16">
             <p className="mb-1 text-xl">
-              Seasoned software engineering professional with over 10 years of diverse experience in the industry. Provides technical leadership and strategic direction across a wide range of projects. Skilled in all phases of the software development lifecycle, from initial planning to successful product launch. Adept at optimizing solutions, developing web and cloud-based applications, and managing global initiatives. Articulate communicator and self-motivated lifelong learner with a passion for basketball and soccer.
+              Persistent professional equipped with 12+ years of comprehensive experience in the Software Development industry. Provides
+              strong technical direction across multiple projects. Experienced with the full software development lifecycle from planning to
+              launch. Responsible and articulate individual with strengths in delivering high-quality software solutions and staying updated
+              with industry trends. Love family, friends and sports. A self-motivated, avid learner.
               <br />
               Prioritizes customer satisfaction, excels in agile environments, and seamlessly integrates into teams of all sizes.
               <br />
@@ -135,6 +138,12 @@ const AboutPage = () => {
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
                     Vue.js
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    AngularJS
                   </li>
                   <li
                     key="react"
@@ -221,7 +230,31 @@ const AboutPage = () => {
                     key="react"
                     className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
                   >
+                    FastAPI
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
                     Go
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    GraphQL
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    Redis
+                  </li>
+                  <li
+                    key="react"
+                    className="mr-2 inline-block border bg-gray-100/50 p-1 text-xl leading-none dark:border-gray-800 dark:bg-gray-900/50"
+                  >
+                    Rabbitmq
                   </li>
                 </ul>
               </AccordionBody>

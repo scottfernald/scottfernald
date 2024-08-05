@@ -27,7 +27,7 @@ const HomePage = () => {
               <span className="block"></span>
               <span className="block text-sm opacity-90">
                 A SENIOR
-                <br /> SOFTWARE ENGINEER
+                <br /> FULL STACK DEVELOPER
               </span>
             </span>
           </h1>
@@ -44,9 +44,9 @@ const HomePage = () => {
             <a href={SOCIALS.GH} aria-label="GitHub" target="_blank" rel="noopener" className="mx-2 block p-2 opacity-80 hover:opacity-95">
               <GitHubIcon />
             </a>
-            <a href={SOCIALS.WA} aria-label="GitHub" target="_blank" rel="noopener" className="mx-2 block p-2 opacity-80 hover:opacity-95">
+            {/* <a href={SOCIALS.WA} aria-label="GitHub" target="_blank" rel="noopener" className="mx-2 block p-2 opacity-80 hover:opacity-95">
               <WhatsAppIcon />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
